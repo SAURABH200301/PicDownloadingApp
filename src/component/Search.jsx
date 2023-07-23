@@ -53,8 +53,8 @@ function Search() {
           <h1>free Stock Images</h1>
         </div>
       )}
-      <div className=" mt-5 d-flex justify-content-center">
-        <div className={`w-50 ${classes.searchBar}`}>
+      <div className=" w-100 mt-5 d-flex justify-content-center ">
+        <div className={` ${classes.searchBar}`}>
           <div className={classes.findContainer}>
             <img src={find} alt="find" />
           </div>
