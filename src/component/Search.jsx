@@ -14,6 +14,10 @@ function Search() {
   const { updateImageData, updateLoading, isLoading } = useImageDataContext();
 
   const onSearch = useCallback(async () => {
+    if(input===''){
+      alert("Please enter the Input");
+      return;
+    }
     updateLoading(true);
     try {
       const result = await apiGet(`&q=${input}`);

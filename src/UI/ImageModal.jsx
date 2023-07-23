@@ -67,7 +67,7 @@ const ImageModal = (prop) => {
                         <input
                           className={`form-check-input ${classes.formChecked}`}
                           type="radio"
-                          
+                          name="flexRadioDefault"
                           id="small"
                           value="small"
                           checked={selectedOption === "small"}
@@ -79,7 +79,7 @@ const ImageModal = (prop) => {
                         <input
                           className={`form-check-input ${classes.formChecked}`}
                           type="radio"
-                          
+                          name="flexRadioDefault"
                           id="medium"
                           value="medium"
                           checked={selectedOption === "medium"}
@@ -91,7 +91,7 @@ const ImageModal = (prop) => {
                         <input
                           className={`form-check-input ${classes.formChecked}`}
                           type="radio"
-                          
+                          name="flexRadioDefault"
                           id="big"
                           value="big"
                           checked={selectedOption === "big"}
@@ -103,7 +103,7 @@ const ImageModal = (prop) => {
                         <input
                           className={`form-check-input ${classes.formChecked}`}
                           type="radio"
-                          
+                          name="flexRadioDefault"
                           id="original"
                           value="original"
                           checked={selectedOption === "original"}
