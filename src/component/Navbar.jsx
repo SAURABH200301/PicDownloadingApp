@@ -6,7 +6,7 @@ function Navbar() {
       <nav className={`navbar ${classes.nav}`}>
         <div className="container-fluid">
           <a className="navbar-brand" style={{color:"white"}}>GetPic</a>
-          <div className="">
+          <div className="d-flex justify-content-right">
             <button className={`btn ${classes.login}`} type="submit">
               Login
             </button>
