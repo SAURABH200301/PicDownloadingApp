@@ -5,7 +5,7 @@ function Navbar() {
     <div className={classes.main}>
       <nav className={`navbar ${classes.nav}`}>
         <div className="container-fluid">
-          <a className="navbar-brand" style={{color:"white"}}>GetYourKnowPic</a>
+          <a className="navbar-brand" style={{color:"white"}}>GetPic</a>
           <div className="">
             <button className={`btn ${classes.login}`} type="submit">
               Login
