@@ -1,0 +1,21 @@
+
+img{
+    width: 100%;
+    object-fit:cover;
+    border-radius: 10px;
+}
+.tagsContainer{
+    margin-top: 5px ;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: black;
+}
+.tagsContainer span{
+    text-transform: capitalize;
+    background-color: rgb(209, 209, 209);
+    border-radius: 5px;
+    padding: 3px;
+    margin-left: 5px;
+    font-weight: 500;
+}

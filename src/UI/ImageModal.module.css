@@ -1,0 +1,74 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1rem;
+    padding: 10px 20px;
+  }
+  .child{
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+  }
+.head{
+    font-weight: 500;
+}
+.value{
+    font-weight: 900;
+}
+  .modal{
+    width: 80%;
+    max-width: 80%;
+  }
+  
+.radios{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(180, 178, 178);
+    font-weight: bold;
+}
+.radios div{
+    padding-left:10px ;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.radios div:not(:last-child){
+    border-bottom: 1px solid rgb(180, 178, 178);
+}
+.btn{
+    outline: none;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(74, 210, 74);
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px 30px 10px 30px;
+}
+.btnContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.formChecked:checked + label{
+    background-color: grey;
+}
+.TagsContainer{
+    margin: 5px;
+}
+.tagsHead{
+    font-weight: 700;
+    margin-right: 20px;
+}
+.tag{
+    margin-right: 10px;
+    padding: 3px 5px 3px 5px;
+    border-radius: 5px;
+    background-color: rgb(240, 235, 235);
+}
+.bgSelect{
+    background-color: rgb(235, 230, 230);
+}

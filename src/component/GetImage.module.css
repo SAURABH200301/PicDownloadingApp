@@ -1,0 +1,13 @@
+.child{
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 10px 20px;
+    background-color: rgb(228, 225, 225);
+    padding: 50px;
+  }
